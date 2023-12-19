@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--this is a comment-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper and Scissors Game</title>
-    <link rel ="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script>
+  <!-- This is a comment -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper and Scissors Game</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <h1>This is a simple Rock Paper and Scissors game</h1>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <br><br>
-    <span id="result"></span>
-    <br>
-    <p class="scoreboard">
-      <span>Wins: <span id="wins">0 </span></span>
+  <h1>This is a simple Rock Paper and Scissors game</h1>
+  <div class="btn-player">
+    <button id="rock">✊</button>
+    <button id="paper">🖐</button>
+    <button id="scissors">✌️</button>
+  </div><br>
 
-      <span>Draws: <span id="draw">0 </span></span>
-
-      <span>Losses: <span id="loss">0 </span></span>
-
-      <span> Number of times Played: <span id="playTimes">0</span></span>
-      
-    </p>
+  <span id="result"></span>
+  <br>
+  <div class="scoreboard">
+    <span>Wins: <span id="wins">0</span></span>
+    <span>Draws: <span id="draw">0</span></span>
+    <span>Losses: <span id="loss">0</span></span>
+    <span>Number of times Played: <span id="playTimes">0</span></span>
+  </div>
+  <br>
+  <button id="reset">↻</button>
+  <div class="percentageBoard">
+    <p>Win Rate: <span id="win%">0%</span></p>
+    <p>Draw Rate: <span id="draw%">0%</span></p>
+    <p>Loss Rate: <span id="loss%"></span></p>
+  </div>
 </body>
 </html>
